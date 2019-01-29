@@ -1,0 +1,6 @@
+framework module Pods_DoggoVote {
+  umbrella header "Pods-DoggoVote-umbrella.h"
+
+  export *
+  module * { export * }
+}

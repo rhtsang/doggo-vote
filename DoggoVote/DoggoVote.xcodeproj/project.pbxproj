@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C4546C960891F2DEE95FA5 /* Pods_DoggoVote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D0741577AB9478E6CE46DF /* Pods_DoggoVote.framework */; };
+		CB59E5C621B098F80032834F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB59E5C521B098F80032834F /* LoginViewController.swift */; };
+		F06153CE2197AC2900A6ACB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06153CD2197AC2900A6ACB4 /* AppDelegate.swift */; };
+		F06153D52197AC2900A6ACB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06153D32197AC2900A6ACB4 /* Main.storyboard */; };
+		F06153D72197AC2A00A6ACB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06153D62197AC2A00A6ACB4 /* Assets.xcassets */; };
+		F06153DA2197AC2A00A6ACB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06153D82197AC2A00A6ACB4 /* LaunchScreen.storyboard */; };
+		F06153E52197AD1C00A6ACB4 /* DoggoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06153E32197AD1C00A6ACB4 /* DoggoTableViewCell.swift */; };
+		F06153E62197AD1C00A6ACB4 /* DoggoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06153E42197AD1C00A6ACB4 /* DoggoTableViewCell.xib */; };
+		F06153E82197B0C400A6ACB4 /* DoggoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06153CF2197AC2900A6ACB4 /* DoggoViewController.swift */; };
+		F06153E92197B0CA00A6ACB4 /* TopDoggosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06153D12197AC2900A6ACB4 /* TopDoggosViewController.swift */; };
+		F06529A2219E685F0059CB1A /* MyDoggosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06529A1219E685F0059CB1A /* MyDoggosViewController.swift */; };
+		F06529A4219E73D00059CB1A /* AddDoggoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06529A3219E73D00059CB1A /* AddDoggoViewController.swift */; };
+		F0EB0816219E42EC008F40EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0EB0815219E42EC008F40EA /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F952571E4C7FBC6FB966C47 /* Pods-DoggoVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggoVote.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoggoVote/Pods-DoggoVote.release.xcconfig"; sourceTree = "<group>"; };
+		C4A3489899FD3B7547D79910 /* Pods-DoggoVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggoVote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoggoVote/Pods-DoggoVote.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D0741577AB9478E6CE46DF /* Pods_DoggoVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoggoVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB59E5C521B098F80032834F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F06153CA2197AC2900A6ACB4 /* DoggoVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggoVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06153CD2197AC2900A6ACB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06153CF2197AC2900A6ACB4 /* DoggoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoViewController.swift; sourceTree = "<group>"; };
+		F06153D12197AC2900A6ACB4 /* TopDoggosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDoggosViewController.swift; sourceTree = "<group>"; };
+		F06153D42197AC2900A6ACB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06153D62197AC2A00A6ACB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06153D92197AC2A00A6ACB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06153DB2197AC2A00A6ACB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06153E32197AD1C00A6ACB4 /* DoggoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoTableViewCell.swift; sourceTree = "<group>"; };
+		F06153E42197AD1C00A6ACB4 /* DoggoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoggoTableViewCell.xib; sourceTree = "<group>"; };
+		F06529A1219E685F0059CB1A /* MyDoggosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoggosViewController.swift; sourceTree = "<group>"; };
+		F06529A3219E73D00059CB1A /* AddDoggoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDoggoViewController.swift; sourceTree = "<group>"; };
+		F0EB0815219E42EC008F40EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06153C72197AC2900A6ACB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C4546C960891F2DEE95FA5 /* Pods_DoggoVote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B566C05F83C351C34248E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6D0741577AB9478E6CE46DF /* Pods_DoggoVote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA14ECE0EDDA577F1470D662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4A3489899FD3B7547D79910 /* Pods-DoggoVote.debug.xcconfig */,
+				1F952571E4C7FBC6FB966C47 /* Pods-DoggoVote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F06153C12197AC2900A6ACB4 = {
+			isa = PBXGroup;
+			children = (
+				F06153CC2197AC2900A6ACB4 /* DoggoVote */,
+				F06153CB2197AC2900A6ACB4 /* Products */,
+				AA14ECE0EDDA577F1470D662 /* Pods */,
+				83B566C05F83C351C34248E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06153CB2197AC2900A6ACB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06153CA2197AC2900A6ACB4 /* DoggoVote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06153CC2197AC2900A6ACB4 /* DoggoVote */ = {
+			isa = PBXGroup;
+			children = (
+				F0EB0815219E42EC008F40EA /* GoogleService-Info.plist */,
+				F06153E22197ACF500A6ACB4 /* Views */,
+				F06153E12197ACE500A6ACB4 /* Controllers */,
+				F06153CD2197AC2900A6ACB4 /* AppDelegate.swift */,
+				F06153D62197AC2A00A6ACB4 /* Assets.xcassets */,
+				F06153DB2197AC2A00A6ACB4 /* Info.plist */,
+			);
+			path = DoggoVote;
+			sourceTree = "<group>";
+		};
+		F06153E12197ACE500A6ACB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F06529A1219E685F0059CB1A /* MyDoggosViewController.swift */,
+				F06529A3219E73D00059CB1A /* AddDoggoViewController.swift */,
+				F06153CF2197AC2900A6ACB4 /* DoggoViewController.swift */,
+				F06153D12197AC2900A6ACB4 /* TopDoggosViewController.swift */,
+				F06153E32197AD1C00A6ACB4 /* DoggoTableViewCell.swift */,
+				CB59E5C521B098F80032834F /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F06153E22197ACF500A6ACB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F06153D32197AC2900A6ACB4 /* Main.storyboard */,
+				F06153E42197AD1C00A6ACB4 /* DoggoTableViewCell.xib */,
+				F06153D82197AC2A00A6ACB4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06153C92197AC2900A6ACB4 /* DoggoVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06153DE2197AC2A00A6ACB4 /* Build configuration list for PBXNativeTarget "DoggoVote" */;
+			buildPhases = (
+				174683AB1680495BE504E9D5 /* [CP] Check Pods Manifest.lock */,
+				F06153C62197AC2900A6ACB4 /* Sources */,
+				F06153C72197AC2900A6ACB4 /* Frameworks */,
+				F06153C82197AC2900A6ACB4 /* Resources */,
+				D74E3B60BC8C5111A7864614 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoggoVote;
+			productName = DoggoVote;
+			productReference = F06153CA2197AC2900A6ACB4 /* DoggoVote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06153C22197AC2900A6ACB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Raymond Tsang";
+				TargetAttributes = {
+					F06153C92197AC2900A6ACB4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F06153C52197AC2900A6ACB4 /* Build configuration list for PBXProject "DoggoVote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06153C12197AC2900A6ACB4;
+			productRefGroup = F06153CB2197AC2900A6ACB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06153C92197AC2900A6ACB4 /* DoggoVote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06153C82197AC2900A6ACB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06153DA2197AC2A00A6ACB4 /* LaunchScreen.storyboard in Resources */,
+				F06153D72197AC2A00A6ACB4 /* Assets.xcassets in Resources */,
+				F0EB0816219E42EC008F40EA /* GoogleService-Info.plist in Resources */,
+				F06153E62197AD1C00A6ACB4 /* DoggoTableViewCell.xib in Resources */,
+				F06153D52197AC2900A6ACB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174683AB1680495BE504E9D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoggoVote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74E3B60BC8C5111A7864614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoggoVote/Pods-DoggoVote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoggoVote/Pods-DoggoVote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06153C62197AC2900A6ACB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB59E5C621B098F80032834F /* LoginViewController.swift in Sources */,
+				F06153CE2197AC2900A6ACB4 /* AppDelegate.swift in Sources */,
+				F06529A4219E73D00059CB1A /* AddDoggoViewController.swift in Sources */,
+				F06153E92197B0CA00A6ACB4 /* TopDoggosViewController.swift in Sources */,
+				F06529A2219E685F0059CB1A /* MyDoggosViewController.swift in Sources */,
+				F06153E52197AD1C00A6ACB4 /* DoggoTableViewCell.swift in Sources */,
+				F06153E82197B0C400A6ACB4 /* DoggoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06153D32197AC2900A6ACB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06153D42197AC2900A6ACB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06153D82197AC2A00A6ACB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06153D92197AC2A00A6ACB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06153DC2197AC2A00A6ACB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06153DD2197AC2A00A6ACB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06153DF2197AC2A00A6ACB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A3489899FD3B7547D79910 /* Pods-DoggoVote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84TP3D756;
+				INFOPLIST_FILE = DoggoVote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhtsang.DoggoVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06153E02197AC2A00A6ACB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F952571E4C7FBC6FB966C47 /* Pods-DoggoVote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84TP3D756;
+				INFOPLIST_FILE = DoggoVote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhtsang.DoggoVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06153C52197AC2900A6ACB4 /* Build configuration list for PBXProject "DoggoVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06153DC2197AC2A00A6ACB4 /* Debug */,
+				F06153DD2197AC2A00A6ACB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06153DE2197AC2A00A6ACB4 /* Build configuration list for PBXNativeTarget "DoggoVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06153DF2197AC2A00A6ACB4 /* Debug */,
+				F06153E02197AC2A00A6ACB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06153C22197AC2900A6ACB4 /* Project object */;
+}
